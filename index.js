@@ -23,7 +23,7 @@ app.get('/',(req,res)=>{
     res.send('Hello World with Express')
 })
 
-app.use('/api',apiRoutes)
+app.use('/api/users',apiRoutes)
 
 app.use(errorHandler)
 
