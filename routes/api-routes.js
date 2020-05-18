@@ -5,7 +5,7 @@ const {getContacts,getContact,createContact,updateContact,deleteContact} = requi
 
 
 router
-     .route('/')
+     .route('/users')
      .get(getContacts)
      .post(createContact)
 
